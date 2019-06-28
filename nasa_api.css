@@ -1,1 +1,23 @@
 <!--nasa_api-->
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+li span {
+  display: block;
+  color: #000;
+  padding: 8px 0px 8px 80px;
+  text-decoration: none;
+  
+  
+}
+
+/* Change the link color on hover */
+li span:hover {
+  background-color: #555;
+  color: white;
+}
