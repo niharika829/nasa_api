@@ -44,3 +44,25 @@ body{
   padding: 0;
   width: 100%;
 }
+#notice{
+	position:absolute;
+	left:45%;
+	top:600%;
+	font-size:20px;
+}
+span {
+  display: block;
+  color: #000;
+  background-color:gainsboro ;
+  padding: 8px 0px 8px 80px;
+  text-decoration: none;
+  
+  }
+  
+  
+
+/* Change the link color on hover */
+span:hover {
+  background-color: #555;
+  color: white;
+}
