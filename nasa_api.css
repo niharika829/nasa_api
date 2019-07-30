@@ -1,4 +1,33 @@
 <!--nasa_api-->
+#jumb{
+	position:relative;
+	left:11%;
+	width:900px;
+	}
+ 
+ 
+ 
+ 
+ #get_pictures
+ {
+	position:relative;
+	left:10%;
+	width:80%;
+	height:60%;
+	border:1px solid grey;
+ } 
+ 
+ 
+ 
+
+#five_jumbo{
+	display:none;
+	position:relative;
+	width:80%;
+	height:80%;
+	left:10%;
+}
+
 body{
 	
 	position:relative;
