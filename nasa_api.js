@@ -1,7 +1,25 @@
 <!--nasa_api-->
+	var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event)
+		{
+					/*if the user press enter then only request will be sent*/
+					var len = document.getElementById("myInput").value;
+					if(len.length != 0)
+					{
+							if (event.keyCode === 13) {
+									event.preventDefault();
+									add();
+
+								}
+					}
+					else{
+					alert("search box cannot be empty!!!");
+					}
+		});
 function reload(){
 	document.location.reload(true);
 	}
+
 /*function to add background image ,it will take few seconds*/	
 var xhr= new XMLHttpRequest();
 function dog(){
